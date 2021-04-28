@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+    background-image: url(../img/Paese_dei_Balocchi.jpg);
+    background-size: cover;
+    padding: 100px;
+ 
+    color: white;
+}
+h1{
+    font-size: 3rem;
+}
+
+ol>li{
+    font-size: 2rem;
+}
+
+h3{
+    font-size:2.5rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+}

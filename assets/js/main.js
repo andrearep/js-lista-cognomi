@@ -29,7 +29,8 @@ while (lastnameList.length > 0) {
 for (var i = 0; i < orderedList.length; i++) {
     document.getElementsByClassName("lista")[i].innerHTML = orderedList[i];
     //salviamoci la posizione in cui si trova il nostro utente
-    if (orderedList[i] == userLastname)
+    if (orderedList[i] == userLastname) {
         var position = i + 1;
+    }
 }
-document.getElementsById("msg").innerHTML = "in lista sei il numero " + position;
+document.getElementById("msg").innerHTML = "in lista sei il numero " + position;
